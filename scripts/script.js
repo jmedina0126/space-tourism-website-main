@@ -1,3 +1,6 @@
+//Navbar animations
+
+// Get DOM Elements
 const menuIcon = document.querySelector('.hamburger-menu');
 const navbar = document.querySelector('nav');
 

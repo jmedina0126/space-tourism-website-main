@@ -207,16 +207,17 @@ main {
   margin-right: 1rem;
   font-weight: 700;
 }
-.dougImg {
+.crewImg {
   height: 223px;
   width: 327px;
   border-bottom: 1px solid #383B4B;
-  margin: 3rem 0;
+  margin: 3.5rem 0;
 }
 .carSlider {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 .selec {
   width: 10px;
@@ -232,20 +233,23 @@ main {
 .selec:hover {
   opacity: 0.5;
 }
-.selec:focus {
+.active {
   opacity: 1;
 }
-.dougDesc {
+.crewDesc {
   display: flex;
   flex-direction: column;
   line-height: 25px;
 }
-.dougDesc .heading4 {
+.crewDesc .heading4 {
   margin: 1rem 0;
   mix-blend-mode: normal;
   opacity: 0.5;
 }
 
+
+
+/* ======= Footer ====== */
 footer {
   position: fixed;
   bottom: 0;
@@ -270,8 +274,9 @@ footer {
     font-size: 1.6rem;
   }
   .heading5 {
-    font-family: 'Bellefair', serif;
+    font-family: 'Barlow Condensed', serif;
     font-size: 1.6rem;
+    letter-spacing: 2.7px;
   }
   .subheading1 {
     font-family: 'Bellefair', serif;
@@ -280,7 +285,7 @@ footer {
   .subheading2 {
     font-family: 'Barlow Condenesed', serif;
     font-size: 1.4rem;
-    letter-spacing: 2.36;
+    letter-spacing: 2.36px;
   }
   .nav-text {
     font-family: 'Barlow Condensed', serif;
@@ -320,7 +325,7 @@ footer {
   .heading5 {
     font-family: 'Bellefair', serif;
     font-size: 2.8 rem;
-    letter-spacing: 4.75;
+    letter-spacing: 4.75px;
   }
   .subheading1 {
     font-family: 'Bellefair', serif;
@@ -329,7 +334,7 @@ footer {
   .subheading2 {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 1.4rem;
-    letter-spacing: 2.35;
+    letter-spacing: 2.35px;
   }
   .nav-text {
     font-family: 'Barlow Condensed', sans-serif;
