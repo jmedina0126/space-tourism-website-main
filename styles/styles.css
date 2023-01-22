@@ -58,7 +58,7 @@ nav {
 nav {
   position: fixed;
   width: 254px;
-  height: 667px;
+  height: 100%;
   top: 0px;
   right: -600px;
 
@@ -194,7 +194,8 @@ main {
 
 /* ================ Crew Page ====================== */
 
-.crewCont {
+.crewCont,
+.desCont {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -247,6 +248,33 @@ main {
   opacity: 0.5;
 }
 
+/* ====== Destination Page ====== */
+
+.desCont {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 8rem 2rem 1rem;
+  text-align: center;
+}
+.desImg {
+  width: 170px;
+  height: 170px;
+  margin: 3.5rem auto;
+}
+.desSlider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2rem;
+}
+.planNav {
+  margin: 0 1rem;
+  color: #D0D6F9;
+}
+.planNav:hover {
+  color: #fff;
+}
 
 
 /* ======= Footer ====== */
