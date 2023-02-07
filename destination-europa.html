@@ -5,34 +5,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+  <script src="scripts\script.js" async></script>
   
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <div class="container" id="destination">
+    <header>
+      <div class="branding">
+        <img height="100%" width="100%" src="assets\shared\logo.svg" alt="Logo">
+      </div>
+    </header>
+    <nav>
+      <div class="nav-container">
 
-  01 Pick your destination
+        <div class="hamburger-menu">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
 
-  Moon
-  Mars
-  Europa
-  Titan
+        <div class="nav-links">
+          <ul>
+            <li><a class="nav-text" href="index.html"><b>00</b> &nbsp; HOME</a></li>
+            <li><a class="nav-text active" href="../destination-moon.html"><b>01</b> &nbsp; DESTINATION</a></li>
+            <li><a class="nav-text" href="../crew-commander.html"><b>02</b> &nbsp; CREW</a></li>
+            <li><a class="nav-text" href="../technology-vehicle.html"><b>03</b> &nbsp; TECHNOLOGY</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-  Europa
+    <main>
+      <div class="desCont">
+        <span class="title"><b>01</b>PICK YOUR DESTINATION</span>
+        <div class="desImg">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="../assets/destination/image-europa.webp"
+            />
+            <source
+              type="image/png"
+              srcset="../assets/destination/image-europa.png"
+            />
+            <img
+              src="../assets/destination/image-europa.webp"
+              alt="Photo of Europa"
+              min-width="170px";
+              height="100%"
+            />
+          </picture>
+        </div>
+        <div class="desSlider">
+          <a class="nav-text planNav" href="destination-moon.html">MOON</a>
+          <a class="nav-text planNav" href="destination-mars.html">MARS</a>
+          <a class="nav-text planNav active" href="destination-europa.html">EUROPA</a>
+          <a class="nav-text planNav" href="destination-titan.html">TITAN</a>
+        </div>
+        <div class="desDesc">
+          <span class="heading2">EUROPA</span>
+          <p> The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
+          <div class="line"></div>
+          <div class="container">
+            <div class="desDesc1">
+              <span class="subheading2">.AVG DISTANCE</span>
+              <span class="units">628 MIL. KM</span>
+            </div>
+            <br />
+            <div class="desDesc2">
+              <span class="subheading2">EST. TRAVEL TIME</span>
+            <span class="units">3 YEARS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
-  The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
-  winter lover’s dream. With an icy surface, it’s perfect for a bit of 
-  ice skating, curling, hockey, or simple relaxation in your snug 
-  wintery cabin.
-
-  Avg. distance
-  628 mil. km
-
-  Est. travel time
-  3 years
+  </div>
 </body>
 </html>

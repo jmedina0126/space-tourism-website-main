@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
 
   <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+  <script src="scripts\script.js" async></script>
   
   <title>Frontend Mentor | Space tourism website</title>
 </head>
@@ -29,8 +30,8 @@
 
         <div class="nav-links">
           <ul>
-            <li><a class="nav-text active" href="index.html"><b>00</b> &nbsp; HOME</a></li>
-            <li><a class="nav-text" href="../destination-moon.html"><b>01</b> &nbsp; DESTINATION</a></li>
+            <li><a class="nav-text" href="index.html"><b>00</b> &nbsp; HOME</a></li>
+            <li><a class="nav-text active" href="../destination-moon.html"><b>01</b> &nbsp; DESTINATION</a></li>
             <li><a class="nav-text" href="../crew-commander.html"><b>02</b> &nbsp; CREW</a></li>
             <li><a class="nav-text" href="../technology-vehicle.html"><b>03</b> &nbsp; TECHNOLOGY</a></li>
           </ul>
@@ -40,60 +41,49 @@
 
     <main>
       <div class="desCont">
-        <span class="heading5"><b>01</b>PICK YOUR DESTINATION</span>
+        <span class="title"><b>01</b>PICK YOUR DESTINATION</span>
         <div class="desImg">
           <picture>
             <source
-              media="min-width: 327px"
               type="image/webp"
               srcset="../assets\destination\image-moon.webp"
             />
             <source
-              media="min-width:"
               type="image/png"
               srcset="../assets\destination\image-moon.png"
             />
             <img
               src="../assets\destination\image-moon.webp"
-              alt="Photo of Douglas Hurley"
-              width: 170px;
+              alt="Photo of Moon"
+              min-width="170px";
               height="100%"
             />
           </picture>
         </div>
         <div class="desSlider">
-          <a class="nav-text planNav" href="destination-moon.html">MOON</a>
+          <a class="nav-text planNav active" href="destination-moon.html">MOON</a>
           <a class="nav-text planNav" href="destination-mars.html">MARS</a>
           <a class="nav-text planNav" href="destination-europa.html">EUROPA</a>
           <a class="nav-text planNav" href="destination-titan.html">TITAN</a>
         </div>
-
-        Moon
-  Mars
-  Europa
-  Titan
-
-  Moon
-
-  See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-  regain perspective and come back refreshed. While you’re there, take in some history 
-  by visiting the Luna 2 and Apollo 11 landing sites.
-
-  Avg. distance
-  384,400 km
-
-  Est. travel time
-  3 days
-        <div class="crewDesc">
-          <span class="heading4">PILOT</span>
-          <span class="heading3">VICTOR GLOVER</span>
-          <p>Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. </p>
+        <div class="desDesc">
+          <span class="heading2">MOON</span>
+          <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+          <div class="line"></div>
+          <div class="container">
+            <div class="desDesc1">
+              <span class="subheading2">.AVG DISTANCE</span>
+              <span class="units">384,400 KM</span>
+            </div>
+            <br />
+            <div class="desDesc2">
+              <span class="subheading2">EST. TRAVEL TIME</span>
+              <span class="units">3 DAYS</span>
+            </div>
+          </div>
         </div>
       </div>
     </main>
-
   </div>
-<script src="scripts\script.js"></script>
-
 </body>
 </html>

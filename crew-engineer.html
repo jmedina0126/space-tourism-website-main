@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
 
   <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+  <script src="scripts\script.js" async></script>
   
   <title>Frontend Mentor | Space tourism website</title>
 </head>
@@ -29,9 +30,9 @@
 
         <div class="nav-links">
           <ul>
-            <li><a class="nav-text active" href="index.html"><b>00</b> &nbsp; HOME</a></li>
+            <li><a class="nav-text" href="index.html"><b>00</b> &nbsp; HOME</a></li>
             <li><a class="nav-text" href="../destination-moon.html"><b>01</b> &nbsp; DESTINATION</a></li>
-            <li><a class="nav-text" href="../crew-commander.html"><b>02</b> &nbsp; CREW</a></li>
+            <li><a class="nav-text active" href="../crew-commander.html"><b>02</b> &nbsp; CREW</a></li>
             <li><a class="nav-text" href="../technology-vehicle.html"><b>03</b> &nbsp; TECHNOLOGY</a></li>
           </ul>
         </div>
@@ -40,28 +41,26 @@
 
     <main>
       <div class="crewCont">
-        <span class="heading5"><b>02</b> MEET YOUR CREW</span>
-        <div class="crewImg">
+        <span class="title"><b>02</b> MEET YOUR CREW</span>
+        <div class="crewImgMob">
           <picture>
             <source
-              media="min-width: 327px"
               type="image/webp"
               srcset="../assets\crew\image-anousheh-ansari.webp"
             />
             <source
-              media="min-width:"
               type="image/png"
               srcset="../assets\crew\image-anousheh-ansari.png"
             />
             <img
               src="../assets\crew\image-anousheh-ansari.webp"
-              alt="Photo of Douglas Hurley"
-              width: 177.12px;
+              alt="Photo of Anousheh Ansari"
+              width="177.12px";
               height="100%"
             />
           </picture>
         </div>
-        <div class="carSlider">
+        <div class="carSliderMob">
           <a class="selec" href="crew-commander.html"></a>
           <a class="selec" href="crew-specialist.html"></a>
           <a class="selec" href="crew-pilot.html"></a>
@@ -72,11 +71,33 @@
           <span class="heading3">ANOUSHEH ANSARI</span>
           <p>Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.</p>
         </div>
+        <div class="carSlider">
+          <a class="selec" href="crew-commander.html"></a>
+          <a class="selec" href="crew-specialist.html"></a>
+          <a class="selec" href="crew-pilot.html"></a>
+          <a class="selec active" href="crew-engineer.html"></a>
+        </div>
+        <div class="crewImg">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="../assets\crew\image-anousheh-ansari.webp"
+            />
+            <source
+              type="image/png"
+              srcset="../assets\crew\image-anousheh-ansari.png"
+            />
+            <img
+              src="../assets\crew\image-anousheh-ansari.webp"
+              alt="Photo of Anousheh Ansari"
+              width="539.51px";
+              height="100%"
+            />
+          </picture>
+        </div>
       </div>
     </main>
 
   </div>
-<script src="scripts\script.js"></script>
-
 </body>
 </html>
